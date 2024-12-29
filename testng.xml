@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Accordion_Tests" enabled="false">
+  <parameter name="browser" value="chrome"></parameter>
+  <groups>
+  <run><include name="regression"></include></run>
+  </groups>
+    <classes>
+      <class name="testingBaba_Wadgets_Tests.Accordion_Tests"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Auto_Complete_Tests" enabled="false">
+  <parameter name="browser" value="chrome"></parameter>
+  <groups>
+  <run><include name="regression"></include></run>
+  </groups>
+    <classes>
+      <class name="testingBaba_Wadgets_Tests.Auto_Complete_Tests"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Date_Picker_Tests" enabled="true">
+  <parameter name="browser" value="chrome"></parameter>
+  <groups>
+  <run><include name="regression"></include></run>
+  </groups>
+    <classes>
+      <class name="testingBaba_Wadgets_Tests.Date_Picker_Tests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

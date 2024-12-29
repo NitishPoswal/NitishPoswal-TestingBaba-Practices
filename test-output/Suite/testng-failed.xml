@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Auto_Complete_Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testingBaba_Wadgets_Tests.Auto_Complete_Tests">
+        <methods>
+          <include name="auto"/>
+          <include name="browserclose"/>
+          <include name="getlaunchbrowse"/>
+        </methods>
+      </class> <!-- testingBaba_Wadgets_Tests.Auto_Complete_Tests -->
+    </classes>
+  </test> <!-- Auto_Complete_Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-29T16:34:38 IST" name="Suite" finished-at="2024-12-29T16:35:03 IST" duration-ms="24782">
+    <groups>
+      <group name="regression">
+        <method signature="Date_Picker_Tests.closetowidgets()[pri:1, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" name="closetowidgets" class="testingBaba_Wadgets_Tests.Date_Picker_Tests"/>
+        <method signature="Date_Picker_Tests.pickdate()[pri:2, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" name="pickdate" class="testingBaba_Wadgets_Tests.Date_Picker_Tests"/>
+        <method signature="Date_Picker_Tests.pickdateandtime()[pri:2, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" name="pickdateandtime" class="testingBaba_Wadgets_Tests.Date_Picker_Tests"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-12-29T16:34:38 IST" name="Date_Picker_Tests" finished-at="2024-12-29T16:35:03 IST" duration-ms="24782">
+      <class name="testingBaba_Wadgets_Tests.Date_Picker_Tests">
+        <test-method is-config="true" signature="getlaunchbrowse(java.lang.String)[pri:0, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" started-at="2024-12-29T16:34:38 IST" name="getlaunchbrowse" finished-at="2024-12-29T16:34:57 IST" duration-ms="18614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunchbrowse -->
+        <test-method signature="closetowidgets()[pri:1, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" started-at="2024-12-29T16:34:57 IST" name="closetowidgets" finished-at="2024-12-29T16:35:02 IST" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetowidgets -->
+        <test-method signature="pickdate()[pri:2, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" started-at="2024-12-29T16:35:02 IST" name="pickdate" finished-at="2024-12-29T16:35:02 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickdate -->
+        <test-method signature="pickdateandtime()[pri:2, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" started-at="2024-12-29T16:35:02 IST" name="pickdateandtime" finished-at="2024-12-29T16:35:02 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickdateandtime -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" started-at="2024-12-29T16:35:02 IST" name="browserclose" finished-at="2024-12-29T16:35:03 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testingBaba_Wadgets_Tests.Date_Picker_Tests -->
+    </test> <!-- Date_Picker_Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
