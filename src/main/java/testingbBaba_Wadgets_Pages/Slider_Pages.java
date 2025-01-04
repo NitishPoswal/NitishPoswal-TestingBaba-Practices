@@ -10,4 +10,9 @@ public class Slider_Pages extends BaseLibrary
 	{
 		PageFactory.initElements(driver, this);
 	}
+	
+	public void clickevent()
+	{
+		
+	}
 }
