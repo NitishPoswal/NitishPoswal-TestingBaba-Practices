@@ -1,5 +1,7 @@
 package testingbBaba_Wadgets_Pages;
 
-public class Slider_Pages {
+import baselibrary.BaseLibrary;
+
+public class Slider_Pages extends BaseLibrary {
 
 }
