@@ -21,7 +21,7 @@
     </classes>
   </test> <!-- Test -->
   
-  <test thread-count="5" name="Date_Picker_Tests" enabled="true">
+  <test thread-count="5" name="Date_Picker_Tests" enabled="false">
   <parameter name="browser" value="chrome"></parameter>
   <groups>
   <run><include name="regression"></include></run>
@@ -30,4 +30,15 @@
       <class name="testingBaba_Wadgets_Tests.Date_Picker_Tests"/>
     </classes>
   </test> <!-- Test -->
+  
+  <test thread-count="5" name="Slider_Tests" enabled="true">
+  <parameter name="browser" value="chrome"></parameter>
+  <groups>
+  <run><include name="regression"></include></run>
+  </groups>
+    <classes>
+      <class name="testingBaba_Wadgets_Tests.Slider_Tests"/>
+    </classes>
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
