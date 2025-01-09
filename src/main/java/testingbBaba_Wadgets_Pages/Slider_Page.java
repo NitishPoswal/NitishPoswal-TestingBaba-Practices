@@ -6,12 +6,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import baselibrary.BaseLibrary;
 
-public class Slider_Pages extends BaseLibrary 
+public class Slider_Page extends BaseLibrary
 {
-	public Slider_Pages()
-	{
+
+	 public Slider_Page()
+	 {
 		PageFactory.initElements(driver, this);
-	}
+	 }
 	
 	 @FindBy(xpath="//*[text()='×']")
 	 private WebElement close ;
@@ -25,7 +26,7 @@ public class Slider_Pages extends BaseLibrary
 	 @FindBy(xpath = "//a[@href='#tab_19']")
 	 private WebElement sliderbtn;
 		
-	 @FindBy(xpath = "//input[@id='range-slider']")
+	 @FindBy(xpath = "//input[@class='range-slider__range']")
 	 private WebElement slider;
 		
        public void closetowidgets()
@@ -38,6 +39,7 @@ public class Slider_Pages extends BaseLibrary
 		
 	public void clickevent()
 	{
+		slider.click();
 		xyaxisdraganddrop(slider, 50, 0);
 	}
 }
