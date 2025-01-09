@@ -1,5 +1,8 @@
 package testing_Baba_Tests;
 
-public class Progress_Bar_Tests {
+import baselibrary.BaseLibrary;
 
+public class Progress_Bar_Tests extends BaseLibrary 
+{
+	
 }
