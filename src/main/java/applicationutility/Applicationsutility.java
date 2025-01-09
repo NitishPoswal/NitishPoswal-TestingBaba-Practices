@@ -23,6 +23,8 @@ public interface Applicationsutility
 	public void dropdown(WebElement ele);
 	public void hover(WebElement ele);
 	
+	public void draganddrop(WebElement ele , WebElement ele1);	
+	public void xyaxisdraganddrop(WebElement ele , int x , int y);
 	public WebElement shadodom(String url);
 }
 
