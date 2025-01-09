@@ -319,10 +319,21 @@ public class BaseLibrary implements Excel_ReadData , Check_Box_Propertiesfile , 
 
 
 	@Override
-	public void waitforclick(WebElement ele) 
+	public void draganddrop(WebElement ele , WebElement ele1)
 	{
-		WebDriverWait wait = (WebDriverWait) new WebDriverWait(driver, null).until(ExpectedConditions.elementToBeClickable(ele));
-		ele.click();
+		
+		Actions act = new Actions(driver);
+		act.dragAndDrop(ele, ele1);
+		
+	}
+
+
+	@Override
+	public void xyaxisdraganddrop(WebElement ele , int x ,int y)
+	{
+		Actions act = new Actions(driver);
+		act.dragAndDropBy(ele, x, y);
+		
 	}
 
 

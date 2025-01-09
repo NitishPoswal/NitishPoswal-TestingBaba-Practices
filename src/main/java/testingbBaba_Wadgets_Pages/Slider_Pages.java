@@ -14,28 +14,30 @@ public class Slider_Pages extends BaseLibrary
 	}
 	
 	 @FindBy(xpath="//*[text()='×']")
-		private WebElement close ;
+	 private WebElement close ;
 		
      @FindBy(xpath="//*[text()='Practice']")
-		private WebElement prectices ;
+	 private WebElement prectices ;
 		
 	 @FindBy(xpath="//button[@data-target='#widget']")
-		private WebElement widgets;
+	 private WebElement widgets;
 		
-	 @FindBy(xpath = "")
+	 @FindBy(xpath = "//a[@href='#tab_19']")
+	 private WebElement sliderbtn;
+		
+	 @FindBy(xpath = "//input[@id='range-slider']")
 	 private WebElement slider;
-		
 		
        public void closetowidgets()
 		{
 			close.click();
 			prectices.click();
 			widgets.click();
-			slider.click();
+			sliderbtn.click();
 		}
 		
 	public void clickevent()
 	{
-		
+		xyaxisdraganddrop(slider, 50, 0);
 	}
 }
