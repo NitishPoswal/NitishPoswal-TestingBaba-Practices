@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-29T16:34:38 IST" name="Suite" finished-at="2024-12-29T16:35:03 IST" duration-ms="24782">
+  <suite started-at="2025-01-09T19:33:26 IST" name="Suite" finished-at="2025-01-09T19:35:29 IST" duration-ms="123113">
     <groups>
       <group name="regression">
-        <method signature="Date_Picker_Tests.closetowidgets()[pri:1, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" name="closetowidgets" class="testingBaba_Wadgets_Tests.Date_Picker_Tests"/>
-        <method signature="Date_Picker_Tests.pickdate()[pri:2, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" name="pickdate" class="testingBaba_Wadgets_Tests.Date_Picker_Tests"/>
-        <method signature="Date_Picker_Tests.pickdateandtime()[pri:2, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" name="pickdateandtime" class="testingBaba_Wadgets_Tests.Date_Picker_Tests"/>
+        <method signature="Slider_Test.closetowidgets()[pri:1, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" name="closetowidgets" class="testing_Baba_Tests.Slider_Test"/>
+        <method signature="Slider_Test.slider()[pri:2, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" name="slider" class="testing_Baba_Tests.Slider_Test"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2024-12-29T16:34:38 IST" name="Date_Picker_Tests" finished-at="2024-12-29T16:35:03 IST" duration-ms="24782">
-      <class name="testingBaba_Wadgets_Tests.Date_Picker_Tests">
-        <test-method is-config="true" signature="getlaunchbrowse(java.lang.String)[pri:0, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" started-at="2024-12-29T16:34:38 IST" name="getlaunchbrowse" finished-at="2024-12-29T16:34:57 IST" duration-ms="18614" status="PASS">
+    <test started-at="2025-01-09T19:33:26 IST" name="Slider_Test" finished-at="2025-01-09T19:35:29 IST" duration-ms="123113">
+      <class name="testing_Baba_Tests.Slider_Test">
+        <test-method is-config="true" signature="getlaunchbrowse(java.lang.String)[pri:0, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" started-at="2025-01-09T19:33:26 IST" name="getlaunchbrowse" finished-at="2025-01-09T19:34:32 IST" duration-ms="66161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,23 +22,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getlaunchbrowse -->
-        <test-method signature="closetowidgets()[pri:1, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" started-at="2024-12-29T16:34:57 IST" name="closetowidgets" finished-at="2024-12-29T16:35:02 IST" duration-ms="5005" status="PASS">
+        <test-method signature="closetowidgets()[pri:1, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" started-at="2025-01-09T19:34:33 IST" name="closetowidgets" finished-at="2025-01-09T19:35:25 IST" duration-ms="51985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetowidgets -->
-        <test-method signature="pickdate()[pri:2, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" started-at="2024-12-29T16:35:02 IST" name="pickdate" finished-at="2024-12-29T16:35:02 IST" duration-ms="229" status="PASS">
+        <test-method signature="slider()[pri:2, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" started-at="2025-01-09T19:35:25 IST" name="slider" finished-at="2025-01-09T19:35:25 IST" duration-ms="464" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pickdate -->
-        <test-method signature="pickdateandtime()[pri:2, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" started-at="2024-12-29T16:35:02 IST" name="pickdateandtime" finished-at="2024-12-29T16:35:02 IST" duration-ms="181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pickdateandtime -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:testingBaba_Wadgets_Tests.Date_Picker_Tests@6bbe85a8]" started-at="2024-12-29T16:35:02 IST" name="browserclose" finished-at="2024-12-29T16:35:03 IST" duration-ms="595" status="PASS">
+        </test-method> <!-- slider -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" started-at="2025-01-09T19:35:25 IST" name="browserclose" finished-at="2025-01-09T19:35:29 IST" duration-ms="4080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-      </class> <!-- testingBaba_Wadgets_Tests.Date_Picker_Tests -->
-    </test> <!-- Date_Picker_Tests -->
+      </class> <!-- testing_Baba_Tests.Slider_Test -->
+    </test> <!-- Slider_Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Slider_Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testingBaba_Wadgets_Tests.Auto_Complete_Tests">
+      <class name="testing_Baba_Tests.Slider_Test">
         <methods>
-          <include name="auto"/>
-          <include name="resultanalysis"/>
-          <include name="sendcountry"/>
-          <include name="browserclose"/>
           <include name="getlaunchbrowse"/>
+          <include name="browserclose"/>
           <include name="closetowidgets"/>
+          <include name="slider"/>
         </methods>
-      </class> <!-- testingBaba_Wadgets_Tests.Auto_Complete_Tests -->
+      </class> <!-- testing_Baba_Tests.Slider_Test -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Slider_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
