@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-09T19:33:26 IST" name="Suite" finished-at="2025-01-09T19:35:29 IST" duration-ms="123113">
+  <suite started-at="2025-01-14T12:27:43 IST" name="Suite" finished-at="2025-01-14T12:28:29 IST" duration-ms="45559">
     <groups>
       <group name="regression">
-        <method signature="Slider_Test.closetowidgets()[pri:1, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" name="closetowidgets" class="testing_Baba_Tests.Slider_Test"/>
-        <method signature="Slider_Test.slider()[pri:2, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" name="slider" class="testing_Baba_Tests.Slider_Test"/>
+        <method signature="Progress_Bar_Tests.checking()[pri:4, instance:testing_Baba_Tests.Progress_Bar_Tests@4be29ed9]" name="checking" class="testing_Baba_Tests.Progress_Bar_Tests"/>
+        <method signature="Progress_Bar_Tests.clickonstartbtn()[pri:3, instance:testing_Baba_Tests.Progress_Bar_Tests@4be29ed9]" name="clickonstartbtn" class="testing_Baba_Tests.Progress_Bar_Tests"/>
+        <method signature="Progress_Bar_Tests.closetowidgets()[pri:1, instance:testing_Baba_Tests.Progress_Bar_Tests@4be29ed9]" name="closetowidgets" class="testing_Baba_Tests.Progress_Bar_Tests"/>
+        <method signature="Progress_Bar_Tests.progessbtn()[pri:2, instance:testing_Baba_Tests.Progress_Bar_Tests@4be29ed9]" name="progessbtn" class="testing_Baba_Tests.Progress_Bar_Tests"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2025-01-09T19:33:26 IST" name="Slider_Test" finished-at="2025-01-09T19:35:29 IST" duration-ms="123113">
-      <class name="testing_Baba_Tests.Slider_Test">
-        <test-method is-config="true" signature="getlaunchbrowse(java.lang.String)[pri:0, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" started-at="2025-01-09T19:33:26 IST" name="getlaunchbrowse" finished-at="2025-01-09T19:34:32 IST" duration-ms="66161" status="PASS">
+    <test started-at="2025-01-14T12:27:43 IST" name="Progress_Bar_Tests" finished-at="2025-01-14T12:28:29 IST" duration-ms="45559">
+      <class name="testing_Baba_Tests.Progress_Bar_Tests">
+        <test-method is-config="true" signature="getlaunchbrowse(java.lang.String)[pri:0, instance:testing_Baba_Tests.Progress_Bar_Tests@4be29ed9]" started-at="2025-01-14T12:27:43 IST" name="getlaunchbrowse" finished-at="2025-01-14T12:28:20 IST" duration-ms="36898" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,19 +24,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getlaunchbrowse -->
-        <test-method signature="closetowidgets()[pri:1, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" started-at="2025-01-09T19:34:33 IST" name="closetowidgets" finished-at="2025-01-09T19:35:25 IST" duration-ms="51985" status="PASS">
+        <test-method signature="closetowidgets()[pri:1, instance:testing_Baba_Tests.Progress_Bar_Tests@4be29ed9]" started-at="2025-01-14T12:28:20 IST" name="closetowidgets" finished-at="2025-01-14T12:28:26 IST" duration-ms="6373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetowidgets -->
-        <test-method signature="slider()[pri:2, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" started-at="2025-01-09T19:35:25 IST" name="slider" finished-at="2025-01-09T19:35:25 IST" duration-ms="464" status="PASS">
+        <test-method signature="progessbtn()[pri:2, instance:testing_Baba_Tests.Progress_Bar_Tests@4be29ed9]" started-at="2025-01-14T12:28:26 IST" name="progessbtn" finished-at="2025-01-14T12:28:27 IST" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- slider -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:testing_Baba_Tests.Slider_Test@6bbe85a8]" started-at="2025-01-09T19:35:25 IST" name="browserclose" finished-at="2025-01-09T19:35:29 IST" duration-ms="4080" status="PASS">
+        </test-method> <!-- progessbtn -->
+        <test-method signature="clickonstartbtn()[pri:3, instance:testing_Baba_Tests.Progress_Bar_Tests@4be29ed9]" started-at="2025-01-14T12:28:27 IST" name="clickonstartbtn" finished-at="2025-01-14T12:28:27 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonstartbtn -->
+        <test-method signature="checking()[pri:4, instance:testing_Baba_Tests.Progress_Bar_Tests@4be29ed9]" started-at="2025-01-14T12:28:27 IST" name="checking" finished-at="2025-01-14T12:28:27 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testing_Baba_Tests.Progress_Bar_Tests@4be29ed9]" started-at="2025-01-14T12:28:27 IST" name="browserclose" finished-at="2025-01-14T12:28:29 IST" duration-ms="1312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-      </class> <!-- testing_Baba_Tests.Slider_Test -->
-    </test> <!-- Slider_Test -->
+      </class> <!-- testing_Baba_Tests.Progress_Bar_Tests -->
+    </test> <!-- Progress_Bar_Tests -->
   </suite> <!-- Suite -->
 </testng-results>
